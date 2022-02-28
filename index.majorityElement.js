@@ -1,3 +1,6 @@
+import SummaryRanges from "./SummaryRanges";
+
+
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +21,4 @@ var majorityElement = function(nums) {
   }
 };
 console.log('1', majorityElement([3, 2, 3]))
-console.log('2', majorityElement([1]))
+console.log('2', majorityElement([1]));
